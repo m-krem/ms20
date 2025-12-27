@@ -26,3 +26,11 @@ collections:
   projects:
     output: true
     permalink: /projects/:name/
+
+header_pages:
+  - index.markdown
+  - about.markdown
+  - projects.markdown
+  - workshop.markdown
+  - members.markdown
+  - events.markdown
