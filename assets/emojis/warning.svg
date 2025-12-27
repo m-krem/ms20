@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="Warning--Streamline-Emojitwo" height="32" width="32">
+  <desc>
+    Warning Streamline Emoji: https://streamlinehq.com
+  </desc>
+  <title>warning</title>
+  <path fill="#ffce31" d="M2.95 31c-1.65 0 -2.4 -1.2 -1.65 -2.65L14.65 2.1c0.75 -1.45 1.95 -1.45 2.7 0l13.35 26.25c0.75 1.45 0 2.65 -1.65 2.65H2.95z" stroke-width="0.5"></path>
+  <g fill="#231f20">
+    <path d="m13.9 11.8 1.4 9.25c0.15 0.9 1.3 0.9 1.45 0l1.35 -9.25c0.25 -3.6 -4.45 -3.6 -4.2 0" stroke-width="0.5"></path>
+    <path d="M13.9 24.8a2.1 2.1 0 1 0 4.2 0 2.1 2.1 0 1 0 -4.2 0" stroke-width="0.5"></path>
+  </g>
+</svg>

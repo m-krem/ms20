@@ -1,0 +1,56 @@
+.events-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+  color: #000000;
+}
+
+.event-card {
+  background: #f9f9f9; /* optionnel */
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.event-card h3 {
+  margin-top: 0;
+}
+
+.events-card a {
+  color: #4ea1ff;
+}
+
+.events-card a:hover {
+  color: #9a7fd1;
+}
+
+
+.social-media-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5em 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.social-media-list li {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+
+.svg-emoji {
+  width: 2em;
+  height: 2em;
+  vertical-align: text-bottom;
+  margin-right: 0.5em;
+}
+
+/* Deux colonnes si écran ≥ 768px */
+@media screen and (min-width: 768px) {
+  .events-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
