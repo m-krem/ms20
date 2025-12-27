@@ -5,5 +5,5 @@
 layout: accueil
 ---
 
-# Bienvenue au MS20
-## Makerspace n°20 du Luxembourg
+## Bienvenue au MS20
+### Makerspace n°20 du Luxembourg
