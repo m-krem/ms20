@@ -2,6 +2,67 @@
 /* ===== Black Theme ===== */
 /* ======================= */
 
+.center-message {
+  justify-content: center;
+}
+
+.site-header {
+  height: 72px;
+  min-height: 72px;
+  z-index: 1;
+}
+
+.site-title {
+  line-height: 72px;
+}
+
+.site-nav {
+  line-height: 72px;
+}
+
+.logo-wrapper {
+  position: relative;
+}
+
+.site-logo {
+  z-index: 2;
+  position: relative;
+  height: 72px;
+  width: auto;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+/* GIF positionné sur le "bras" selon le SVG original, ajusté pour le redimensionnement */
+.bras-gif {
+  position: absolute;
+  height: calc(40 / 55.370136 * 72px);  /* hauteur proportionnelle  40mm divisé par la hauteur du svg fois 72 */
+  width: auto;
+  left: 70px;  /* x du bras dans le SVG original / largeur SVG original */
+  top: -2px; /* y du bras + ajustement top du site-logo */
+  transform: rotate(40deg);
+  transform-origin: center;
+  display: none;      /* caché par défaut */
+}
+
+/* Au survol du header, afficher le GIF et masquer le bras dans le SVG */
+.site-header:hover .bras-gif {
+  display: block;
+}
+
+.site-header:hover #bras {
+  display: none !important;
+}
+.site-header:hover #engrenage {
+  display: none !important;
+}
+
+.footer-logo {
+  height: 72px;
+  width: auto;
+  display: block;
+}
 
 /* ===== Base colors ===== */
 body {

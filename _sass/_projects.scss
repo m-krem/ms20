@@ -1,0 +1,43 @@
+.full-width {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+.project-section {
+  padding: 5rem 2rem;
+  position: relative;
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.esero { background-color: #0098d4; color: white; }
+.makeit { background-color: #aab637; color: white; }
+.radio { background-color: #ffffff; color: #111; }
+
+.divider {
+  position: relative;      /* ou absolute si tu veux superposer exactement */
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  height: 120px;
+  z-index: 2;              /* au-dessus du fond des sections */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Bleu → Rouge */
+.divider-esero {
+  background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 120' preserveAspectRatio='none'>\
+<path d='M0,64 C120,80 240,96 360,90 480,85 600,60 720,48 840,36 960,40 1080,58 1200,76 1320,90 1440,80 L1440,0 L0,0 Z' fill='%230098d4'/>\</svg>");
+}
+
+/* Rouge → Blanc */
+.divider-makeit {
+  background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 120' preserveAspectRatio='none'>\
+<path d='M0,48 C160,96 320,120 480,100 640,80 800,32 960,24 1120,16 1280,48 1440,64 L1440,0 L0,0 Z' fill='%23aab637'/>\</svg>");
+}

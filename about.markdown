@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Qu'est-ce que le MS20 ?
 
-Le **Makerspace MS20** est le makerspace n°20 du Luxembourg. C’est un espace dédié à la **création**, à l’**innovation** et au **partage**, ouvert aux élèves, enseignants et membres de la communauté éducative de [Vauban, École et Lycée français de Luxembourg](https://vauban.lu).
+Le **MS20** est le makerspace n°20 du Luxembourg. C’est un espace dédié à la **création**, à l’**innovation** et au **partage**, ouvert aux élèves, enseignants et membres de la communauté éducative de [Vauban, École et Lycée français de Luxembourg](https://vauban.lu).
 
 Les makerspaces du Luxembourg sont une initiative de [BEE Creative](https://makerspace.lu). Dans ce cadre, le MS20 a été créé en **2018** sous l'impulsion de Monsieur Metzler, professeur agrégé de Physique-Chimie et de NSI, à la suite du rôle de l’établissement comme hôte de la **Makerfest**, l’événement annuel désormais organisé par [base1](https://base1.lu).
 

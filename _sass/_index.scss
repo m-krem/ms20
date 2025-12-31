@@ -1,0 +1,40 @@
+.home {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #9a7fd1;
+  color: white;
+  margin: 0 auto;      // centre horizontal
+}
+
+.home h2 {
+  line-height: 0.1;
+}
+
+.home-logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 1rem;
+  z-index: 2;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+/* GIF positionné sur le "bras" selon le SVG original, ajusté pour le redimensionnement */
+.home-gif {
+  position: absolute;
+  height: calc(40 / 97.366669 * 200px);  /* hauteur proportionnelle  40mm divisé par la hauteur du svg fois 72 */
+  width: auto;
+  left: calc(48.5 / 96.308334 * 200px)+12;  /* 112.7 x du bras dans le SVG original / largeur SVG original */
+  top: -2.1px; /* y du bras + ajustement top du site-logo */
+  transform: rotate(40deg);
+  transform-origin: center;
+  display: block;      /* caché par défaut */
+}
