@@ -9,7 +9,7 @@
   text-align: center;
   background: #9a7fd1;
   color: white;
-  margin: 0 auto;      // centre horizontal
+  margin: 0 auto;      /* centre horizontal */
 }
 
 .home h2 {
@@ -32,7 +32,7 @@
   position: absolute;
   height: calc(40 / 97.366669 * 200px);  /* hauteur proportionnelle  40mm divisé par la hauteur du svg fois 72 */
   width: auto;
-  left: 112.718px;  /* calc(48.5 / 96.308334 * 200px + 12) 112.7 x du bras dans le SVG original / largeur SVG original */
+  left: calc((48.5 / 96.308334 * 200px) + 12px);  /* calc(48.5 / 96.308334 * 200px + 12) 112.7 x du bras dans le SVG original / largeur SVG original */
   top: -2.1px; /* y du bras + ajustement top du site-logo */
   transform: rotate(40deg);
   transform-origin: center;
